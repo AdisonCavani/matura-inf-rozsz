@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class zad42 {
 
 	public static void main(String[] args) throws FileNotFoundException {
-		var file = new File("przyklad.txt");
+		var file = new File("liczby.txt");
 		var scanner = new Scanner(file);
 		
 		var largestDiff = 0;
